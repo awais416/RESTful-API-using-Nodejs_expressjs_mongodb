@@ -17,7 +17,7 @@ var bookRouter=require('./Routes/bookRoutes')(Book);
 app.use('/api',bookRouter);
 
 app.get('/', function(req,res){
-    res.send('welcome my friends');
+    res.send('welcome my friends, hope you will learn a lot here');
 });
 
 app.listen(port,function () {
